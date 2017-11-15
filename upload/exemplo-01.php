@@ -19,6 +19,5 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
 		throw new Exception("Não foi possível realizar o upload.");
 		
 	}
-	
 }
 ?>
