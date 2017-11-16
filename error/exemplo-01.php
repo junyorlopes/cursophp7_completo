@@ -8,5 +8,5 @@ function error_handler($code, $message, $file, $line){
 	));
 }
 set_error_handler("error_handler");
-echo 100 / 1;
+echo 100 / 1;//Objetivo em forçar um erro
 ?>
