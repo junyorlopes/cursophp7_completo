@@ -1,8 +1,8 @@
 <?php
-try { //Execução desejada
+try { //Tente executar isto
 	throw new Exception("Houve um erro!", 40);
 }
-//Caso a execução de um erro
+//Caso o bloco acima falhe, execute isto
  catch (Exception $e) { 
  	echo json_encode(array(
  		"message"=>$e->getMessage(),
